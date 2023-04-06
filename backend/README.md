@@ -15,3 +15,15 @@ create .babelrc
     ]  
 }
 ```
+
+add scripts in package.json
+```
+"scripts": {  
+    "start": "nodemon --exec npm run babel-node --  ./bin/www",  
+    "babel-node": "babel-node"  
+},
+```
+
+```
+npm i -g nodemon
+```
