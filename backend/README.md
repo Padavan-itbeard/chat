@@ -83,3 +83,8 @@ add model ChatRoomMessages
 ```
 npx sequelize model:generate --name ChatRoomMessages --attributes author:string,message:text,chatRoomId:integer
 ```
+
+add a unique constraint
+```
+npx sequelize-cli migration:create add-unique-constraint-for-chatroom-name
+```
