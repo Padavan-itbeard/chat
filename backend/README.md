@@ -114,3 +114,5 @@ run the migrations
 ```
 npx sequelize-cli db:migrate
 ```
+
+replace bin/www
