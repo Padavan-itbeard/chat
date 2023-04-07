@@ -65,3 +65,11 @@ module.exports = {
   },  
 };
 ```
+
+add .env
+```
+DB_HOST='localhost'  
+DB_NAME='chat_app_development'  
+DB_USERNAME='postgres'  
+DB_PASSWORD='postgres'
+```
