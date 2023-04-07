@@ -4,7 +4,7 @@ const dbName = process.env.DB_NAME;
 const dbUsername = process.env.DB_USERNAME;
 const dbPassword = process.env.DB_PASSWORD;
 const dbPort = process.env.DB_PORT || 5432;
-
+console.log('>>>', { dbHost, dbName, dbUsername, dbPassword, dbPort });
 module.exports = {
   development: {
     username: dbUsername,

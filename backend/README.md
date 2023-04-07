@@ -88,3 +88,29 @@ add a unique constraint
 ```
 npx sequelize-cli migration:create add-unique-constraint-for-chatroom-name
 ```
+
+install postgreSql
+/Library/PostgreSQL/15
+/Library/PostgreSQL/15/data
+postgres
+port=5433
+
+Installation Directory: /Library/PostgreSQL/15
+Server Installation Directory: /Library/PostgreSQL/15
+Data Directory: /Library/PostgreSQL/15/data
+Database Port: 5433
+Database Superuser: postgres
+Operating System Account: postgres
+Database Service: postgresql-15
+Command Line Tools Installation Directory: /Library/PostgreSQL/15
+pgAdmin4 Installation Directory: /Library/PostgreSQL/15/pgAdmin 4
+Stack Builder Installation Directory: /Library/PostgreSQL/15
+Installation Log: /tmp/install-postgresql.log
+
+add .env - DB_PORT='5433'
+create BD via pgAdmin with name chat_app_development
+
+run the migrations
+```
+npx sequelize-cli db:migrate
+```

@@ -1,14 +1,10 @@
 "use strict";
-
+/** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    return queryInterface.addConstraint("ChatRooms", ["name"], {
-      type: "unique",
-      name: "unique_name",
-    });
+  async up(queryInterface, Sequelize) {
+    await queryInterface.addConstraint("ChatRooms", { fields: ["name"], name: "unique_name", type: "unique" });
   },
-
-  down: (queryInterface, Sequelize) => {
-    return queryInterface.removeConstraint("ChatRooms", "unique_name");
-  },
+  async down(queryInterface, Sequelize) {
+    await queryInterface.removeConstraint("ChatRooms", "unique_name");
+  }
 };
