@@ -74,7 +74,12 @@ DB_USERNAME='postgres'
 DB_PASSWORD='postgres'
 ```
 
-add chatroom models
+add mode ChatRoom
 ```
 npx sequelize model:generate --name ChatRoom --attributes name:string
+```
+
+add model ChatRoomMessages
+```
+npx sequelize model:generate --name ChatRoomMessages --attributes author:string,message:text,chatRoomId:integer
 ```
