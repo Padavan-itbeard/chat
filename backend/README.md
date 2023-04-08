@@ -120,13 +120,3 @@ change chatmessage.js
 change chatroom.js
 add routers/chatRoom.js
 change app.js
-
-# frontend
-
-```
-npx create-react-app frontend
-npm i axios bootstrap formik react-bootstrap react-router-dom socket.io-client yup
-```
-
-change App.js
-change App.css
