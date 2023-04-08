@@ -116,4 +116,5 @@ npx sequelize-cli db:migrate
 ```
 
 replace bin/www
-changing chatmessage.js
+change chatmessage.js
+change chatroom.js
