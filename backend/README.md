@@ -1,5 +1,5 @@
-# backend build
 [source](https://dev.to/aumayeung/how-to-build-a-chat-app-with-react-socket-io-and-express-117m)<br>
+# backend build
 ```
 npx express-generator
 npm i
@@ -120,3 +120,13 @@ change chatmessage.js
 change chatroom.js
 add routers/chatRoom.js
 change app.js
+
+# frontend
+
+```
+npx create-react-app frontend
+```
+
+```
+npm i axios bootstrap formik react-bootstrap react-router-dom socket.io-client yup
+```
