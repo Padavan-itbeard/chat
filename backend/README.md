@@ -119,3 +119,4 @@ replace bin/www
 change chatmessage.js
 change chatroom.js
 add routers/chatRoom.js
+change app.js
