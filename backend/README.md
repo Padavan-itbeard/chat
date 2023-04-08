@@ -125,8 +125,5 @@ change app.js
 
 ```
 npx create-react-app frontend
-```
-
-```
 npm i axios bootstrap formik react-bootstrap react-router-dom socket.io-client yup
 ```
